@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/mtb/MTBOpenBank/serCurrentBalance"
+  },
+
+  "response": {
+    "status": 200,
+    "bodyFileName": "mtb/serCurrentBalance.json",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "fixedDelayMilliseconds": 10000
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "resCode": "000",
+  "resMsg": "Request Successful",
+  "accInfo": {
+    "accName": "HEHEHE",
+    "accNo": "1311000637048",
+    "availableBalance": "4792600000000.920",
+    "status": "OPERATIVE"
+  }
+}

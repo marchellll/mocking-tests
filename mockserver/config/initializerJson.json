@@ -1,0 +1,32 @@
+[
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/mtb/MTBOpenBank/serCurrentBalance"
+    },
+    "httpResponse": {
+      "body": {
+        "resCode": "000",
+        "resMsg": "Request Successful",
+        "accInfo": {
+          "accName": "HEHEHE",
+          "accNo": "1311000637048",
+          "availableBalance": "4792600000000.920",
+          "status": "OPERATIVE"
+        }
+      },
+      "delay": {
+        "timeUnit": "SECONDS",
+        "value": 10
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/simpleSecond"
+    },
+    "httpResponse": {
+      "body": "some second response"
+    }
+  }
+]
